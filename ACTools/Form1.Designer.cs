@@ -69,7 +69,7 @@
             // buildNameLabel
             // 
             this.buildNameLabel.AutoSize = true;
-            this.buildNameLabel.Location = new System.Drawing.Point(272, 142);
+            this.buildNameLabel.Location = new System.Drawing.Point(272, 144);
             this.buildNameLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.buildNameLabel.Name = "buildNameLabel";
             this.buildNameLabel.Size = new System.Drawing.Size(112, 15);
@@ -108,12 +108,12 @@
             // 
             // generateButton
             // 
-            this.generateButton.Location = new System.Drawing.Point(68, 280);
+            this.generateButton.Location = new System.Drawing.Point(51, 282);
             this.generateButton.Margin = new System.Windows.Forms.Padding(4);
             this.generateButton.Name = "generateButton";
-            this.generateButton.Size = new System.Drawing.Size(100, 30);
+            this.generateButton.Size = new System.Drawing.Size(117, 30);
             this.generateButton.TabIndex = 7;
-            this.generateButton.Text = "按模板生成";
+            this.generateButton.Text = "生成核实概况";
             this.generateButton.UseVisualStyleBackColor = true;
             this.generateButton.Click += new System.EventHandler(this.generateButton_Click);
             // 
@@ -158,18 +158,18 @@
             // 
             // writeButton
             // 
-            this.writeButton.Location = new System.Drawing.Point(254, 280);
+            this.writeButton.Location = new System.Drawing.Point(254, 282);
             this.writeButton.Margin = new System.Windows.Forms.Padding(4);
             this.writeButton.Name = "writeButton";
             this.writeButton.Size = new System.Drawing.Size(100, 30);
             this.writeButton.TabIndex = 14;
-            this.writeButton.Text = "手动导入";
+            this.writeButton.Text = "选择项目名称";
             this.writeButton.UseVisualStyleBackColor = true;
             this.writeButton.Click += new System.EventHandler(this.writeButton_Click);
             // 
             // checkButton
             // 
-            this.checkButton.Location = new System.Drawing.Point(430, 280);
+            this.checkButton.Location = new System.Drawing.Point(448, 282);
             this.checkButton.Margin = new System.Windows.Forms.Padding(4);
             this.checkButton.Name = "checkButton";
             this.checkButton.Size = new System.Drawing.Size(100, 30);
@@ -197,7 +197,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(16, 142);
+            this.label2.Location = new System.Drawing.Point(16, 143);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(75, 15);
             this.label2.TabIndex = 18;
@@ -213,7 +213,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(16, 184);
+            this.label6.Location = new System.Drawing.Point(16, 186);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(75, 15);
             this.label6.TabIndex = 24;
@@ -229,7 +229,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(16, 232);
+            this.label8.Location = new System.Drawing.Point(16, 236);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(165, 15);
             this.label8.TabIndex = 28;
@@ -245,7 +245,7 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(352, 232);
+            this.label11.Location = new System.Drawing.Point(352, 236);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(90, 15);
             this.label11.TabIndex = 36;
@@ -268,7 +268,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(272, 184);
+            this.label3.Location = new System.Drawing.Point(272, 186);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(82, 15);
